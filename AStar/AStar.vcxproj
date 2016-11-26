@@ -146,6 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="MapInfo.h" />
+    <ClInclude Include="MyMap.h" />
+    <ClInclude Include="ShortPath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="mainProc.cpp" />
+    <ClCompile Include="MyMap.cpp" />
+    <ClCompile Include="ShortPath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
